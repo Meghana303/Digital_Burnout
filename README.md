@@ -166,7 +166,7 @@ Digital_Burnout/
 ## 1️⃣ Install Dependencies
 pip install -r requirements.txt
 
-2️⃣ Run the Notebook
+## 2️⃣ Run the Notebook
 jupyter notebook: main.ipynb
 
 inside the notebook, you'll find:
@@ -177,7 +177,7 @@ inside the notebook, you'll find:
 ✔ Evaluation
 ✔ Comparison plots
 
-🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 Add a FastAPI/Flask backend for real-time predictions
 
