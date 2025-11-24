@@ -87,48 +87,6 @@ Exceptional performance on highly imbalanced sessions.
 ## 📁 Project Structure
 
 
----
-
-## 🧠 ML Pipeline Breakdown
-
-### **1️⃣ Data Processing**
-- Aggregated millions of events  
-- Grouped by **user_id** + **session**  
-- Built interaction-based features  
-- Avoided session duration → prevents leakage  
-- Normalized + cleaned data  
-
-### **2️⃣ Imbalance Handling**
-Used **SMOTE** to oversample minority burnout cases.  
-Ensures balanced training for robust model performance.
-
-### **3️⃣ Modeling**
-Trained classical and advanced models:
-
-- Logistic Regression  
-- Random Forest  
-- Decision Tree  
-- KNN  
-- SVM  
-- **XGBoost** (BEST)
-
-### **4️⃣ Evaluation**
-| Model | F1-Score |
-|-------|----------|
-| ⭐ **XGBoost** | ⭐ **0.92** |
-| KNN | 0.92 |
-| Random Forest | 0.91 |
-| SVM | 0.87 |
-| Logistic Regression | 0.86 |
-| Decision Tree | 0.84 |
-
-📌 **Winner:** **XGBoost (92% F1 Score)**  
-Exceptional performance on highly imbalanced sessions.
-
----
-
-## 📁 Project Structure
-
 Digital_Burnout/
 │
 ├── main.ipynb # End-to-end ML pipeline
