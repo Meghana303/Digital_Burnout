@@ -18,12 +18,12 @@ A visually clean, efficient, modern ML project designed end-to-end — from data
 
 ## 🚀 Key Highlights
 
-✨ Processed **1.6M+ user behavior logs** (views, cart events, purchases)  
-✨ Engineered **session-level features** without leaking session duration  
-✨ Handled **class imbalance** using **SMOTE**  
-✨ Trained multiple ML models → **XGBoost achieved 92% F1-Score**  
-✨ End-to-end ML pipeline with preprocessing, modeling, and evaluation  
-✨ Clean code, reproducible workflow, high-quality experimentation
+- Processed **1.6M+ user behavior logs** (views, cart events, purchases)  
+- Engineered **session-level features** without leaking session duration  
+- Handled **class imbalance** using **SMOTE**  
+- Trained multiple ML models → **XGBoost achieved 92% F1-Score**  
+- End-to-end ML pipeline with preprocessing, modeling, and evaluation  
+- Clean code, reproducible workflow, high-quality experimentation
 
 ---
 
